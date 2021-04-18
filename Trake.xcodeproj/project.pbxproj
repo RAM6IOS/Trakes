@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049AEAA6262C8CDB004C464D /*  Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049AEAA5262C8CDB004C464D /*  Locations.swift */; };
+		049AEAA8262C96C6004C464D /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049AEAA7262C96C6004C464D /* WorldView.swift */; };
 		04A4F6A6262B2DDF00B0126D /* TrakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4F6A5262B2DDF00B0126D /* TrakeApp.swift */; };
 		04A4F6A8262B2DDF00B0126D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4F6A7262B2DDF00B0126D /* ContentView.swift */; };
 		04A4F6AA262B2DE000B0126D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A4F6A9262B2DE000B0126D /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049AEAA5262C8CDB004C464D /*  Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Locations.swift"; sourceTree = "<group>"; };
+		049AEAA7262C96C6004C464D /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		04A4F6A2262B2DDF00B0126D /* Trake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A4F6A5262B2DDF00B0126D /* TrakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrakeApp.swift; sourceTree = "<group>"; };
 		04A4F6A7262B2DDF00B0126D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				04A4F6A5262B2DDF00B0126D /* TrakeApp.swift */,
+				049AEAA7262C96C6004C464D /* WorldView.swift */,
 				04A4F6A7262B2DDF00B0126D /* ContentView.swift */,
+				049AEAA5262C8CDB004C464D /*  Locations.swift */,
 				04A4F6D4262B832400B0126D /* Location.swift */,
 				04A4F6D1262B332900B0126D /* locations.json */,
 				04A4F6D0262B332900B0126D /* tips.json */,
@@ -272,7 +278,9 @@
 			files = (
 				04A4F6A8262B2DDF00B0126D /* ContentView.swift in Sources */,
 				04A4F6D5262B832400B0126D /* Location.swift in Sources */,
+				049AEAA8262C96C6004C464D /* WorldView.swift in Sources */,
 				04A4F6A6262B2DDF00B0126D /* TrakeApp.swift in Sources */,
+				049AEAA6262C8CDB004C464D /*  Locations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
